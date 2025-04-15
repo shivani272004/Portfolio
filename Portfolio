@@ -1,0 +1,74 @@
+#html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="intro">
+    <img src="C:\Users\shiva\Downloads\flower.jpg" alt="Your Photo" class="profile-pic">
+    <h1>Hi, I'm Shivani</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I love building beautiful and functional websites using HTML, CSS, and JavaScript. Currently learning new skills to grow as a developer.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: shivani@example.com</p>
+    <p>Phone: +91 12345 67890</p>
+    <p><a href="resume.pdf" download>Download Resume</a></p>
+  </section>
+
+</body>
+</html>
+#style.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 30px;
+    background-color: #dbeafe;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .about, .contact {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  a {
+    color: #1d4ed8;
+    text-decoration: none;
+  }
+  
